@@ -1,0 +1,78 @@
+body {
+	background-color: #B5A789;
+}
+.logo {
+	background-color: #675C47;
+}
+.logo img {
+	margin-left: 50px;
+}
+.headerCont, .headNav, .leftCont, .midCont, .rightCont, .footerCont {
+	padding: 0;
+}
+.nav {
+	background-color: #C3B089;
+    margin: 6px auto;
+}
+.nav-pills > li > a	{
+	color: #675C47;
+	font-weight: normal;
+}
+.content {
+	/*border: 5px solid #D3C29F;
+	background-color: #EFE5D0;*/
+}
+.left, 
+.middle, 
+.right {
+	border: 5px solid #D3C29F;
+	padding: 10px;
+	height: 850px;
+	background-color: #EFE5D0;
+	/*margin: 5px;*/
+}
+h1, h2, h3 {
+	color: #B86A6A;
+}
+h4 {
+	color: #472121;
+}
+.right {
+	text-align: center;
+}
+.right img {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.right h3 {
+	margin-bottom: 50px;
+}
+.right .red {
+	color: #B86A6A;
+} 
+.right p:nth-child(5) {
+	margin-bottom: 50px;
+}
+.right p:nth-child(6) {
+	margin-bottom: 20px;
+}
+.footer {
+	background-color: #675C47;
+	text-align: center;
+}
+.footer p {
+	color: #D3C29F;
+	padding: 10px 0;
+
+}
+@media (max-width: 600px) {
+.left, 
+.middle, 
+.righ {
+	height: unset;
+}	
+@media (max-width: 375px) {
+	nav ul li:nth-child(4) {
+		display: none;
+	}
+}
